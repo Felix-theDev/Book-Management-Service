@@ -20,12 +20,15 @@ Windows:
 Linux/Mac:
   Use your package manager to install Java 17 
 Verify installation:
+
   java -version
 
 *How to Run the Project*
 Step 1: Run the Management Service
   Navigate to the directory containing the Management Service JAR file and open command line there then type in the below command to start the service.
+  
   java -jar Book-Management-Service.jar
+  
 Verify the service is running:
 Open a browser and visit: http://localhost:8080/books/getAllBooks.
 You should see two dummy books preloaded in the system:
@@ -33,7 +36,7 @@ You should see two dummy books preloaded in the system:
 
 Step 2: Run the Web Service
   Navigate to the directory containing the Web Service JAR file and open command line there then type in the below command to start the service.
-  Start the service:
+  
   java -jar Book-Web-Service.jar
 
 Access the web interface:
